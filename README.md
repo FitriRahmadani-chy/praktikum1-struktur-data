@@ -8,7 +8,7 @@ Keduanya berguna untuk manajemen data berurutan dalam algoritma dan progra
 
 1. KODE PROGRAM QUEUE:
 
-from queue import Queue
+```from queue import Queue
 q = Queue(maxsize = 3)
 print(q.qsize())
 q.put('a')
@@ -23,7 +23,7 @@ print("\nEmpty: ", q.empty())
 q.put(1)
 print("\nEmpty: ", q.empty())
 print("Full: ", q.full())
-
+```
 
 
 BERIKUT PENJELASANNYA:
@@ -104,6 +104,7 @@ print("Full: ", q.full())
 
 11. BERIKUT OUTPUT NYA:
 
+```
     0
 
 Full:  True
@@ -117,7 +118,7 @@ Empty:  True
 
 Empty:  False
 Full:  False
-
+```
 
 
 RANGKUMAN:
@@ -137,7 +138,7 @@ Susunan alur secara singkat:
 
 2. KODE PROGRAM STACK:
 
-stack = []
+```stack = []
 
 stack.append('a')
 stack.append('b')
@@ -153,7 +154,7 @@ print(stack.pop())
 
 print('\nStack after elements are popped:')
 print(stack)
-
+```
 
 PENJELASANNYA:
 
